@@ -6,10 +6,10 @@ This is a utility that I use to manage my emails.   See my LinkedIn article for 
 
 To use this script, you will need to set the following environment variables:
 
-IMAP_SERVER    mail.server.com
-IMAP_LOGIN     usually your email@address.com
-IMAP_PWD       email_password
-EMAIL_ADDRESS  email@address.com
+- IMAP_SERVER    mail.server.com
+- IMAP_LOGIN     usually your email@address.com
+- IMAP_PWD       email_password
+- EMAIL_ADDRESS  email@address.com
 
 
 I suggest running in Docker for resilience.  
