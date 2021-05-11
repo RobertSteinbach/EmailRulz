@@ -68,6 +68,8 @@ def looper():
     while a > 0:
         a += 1              # a will be the time period between iterations (e.g. 5 minutes)
 
+        rundt = datetime.datetime.now()         # update the time for this iteration
+
         # extract the rules on the first iteration and about every 3 days
         if a == 2 or (a % 1000 == 0):
             extract_rulz()
